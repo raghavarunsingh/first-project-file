@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      body{
+         margin-left: 25%;
+      }
+      .container{
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-rows: 1fr 1fr 2fr;
+         height: 95vh;
+         width: 50vw;
+         /* border: 2px solid black; */
+      }
+      .container >*{
+         border: 5px solid red;
+      }
+      .box1{
+         grid-row: span 2;
+         display: flex;
+         flex-direction: column;
+        
+
+
+      }
+      .box2{
+         /* background-color: blue; */
+         display: flex;
+         flex-direction: column;
+      }
+
+      .box3{
+         /* background-color: aqua; */
+         grid-row: span 2;
+         display: flex;
+         flex-direction: column;
+      }
+
+      .box4{
+         /* background-color: chocolate; */
+         grid-row: span 2;
+         display: flex;
+         flex-direction: column;
+      }
+
+      .box5{
+         /* background-color: yellow; */
+         display: flex;
+         flex-direction: column;
+      }
+
+      .box6{
+         /* background-color: burlywood; */
+         display: flex;
+         flex-direction: column;
+         
+      }
+   </style>
+</head>
+<body>
+   <h1>Design by Arun Raghav</h1>
+   <div class="container">
+      <div class="box1">
+         <div style="flex-basis: 45%;">
+          <img src="./nature.11.jpg" style="height:160px; width: 250px;">
+         </div>
+         <div style="flex-basis: 55%; padding-left: 7px;"><h3>Sun Set</h3>
+            <p>Sunset (or sundown) is the disappearance of the Sun below the horizon of the Earth. </p>
+            <a href="https://en.wikipedia.org/wiki/Sunset" class="read more">Read More</a>
+         </div>
+      </div>
+      <div class="box2">
+        <div style="flex-basis: 50%;">
+          <img src="./nature.jpg" alt="Nature" style="height: 100px; width:250px;">
+        </div>
+        <div style="background-color: white; flex-basis: 40%;"><p style="padding-left: 7px;"> Nature is an integral part of our lives.</p></div>
+       
+      </div>
+     <div class="box3">
+      <div style="flex-basis: 45%;">
+         <img src="./ram mandir.webp" style="height: 120px; width: 250px;">
+      </div>
+        <div style="flex-basis: 55%; padding-left: 7px;"><h3>Shri Ram Mandir (Ayodhya)</h3><p>Ram Mandir is a Hindu temple being built at the site of Ram Janmabhoomi in Ayodhya.</p>
+         <a href="https://hi.wikipedia.org/wiki/%E0%A4%B0%E0%A4%BE%E0%A4%AE_%E0%A4%AE%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0,_%E0%A4%85%E0%A4%AF%E0%A5%8B%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%BE" class="read more">Read More</a>
+        </div>
+       
+      </div>
+     <div class="box4">
+      <div style="flex-basis: 50%;">
+         <img src="./Prem-Mandir.jpg" style="height: 200px; width: 250px;">
+      </div>
+      <div style="background-color: white; flex-basis: 50%; padding-left: 7px;"><h3>Prem Mandir</h4><p>Prem Mandir is located in Vrindavan near Mathura district of Uttar Pradesh state in India. It was constructed by Jagadguru Kripalu Maharaj as a temple of Lord Krishna and Radha .</p>
+         <a href="https://hi.wikipedia.org/wiki/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%AE_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0" class="read more">Read More</a>
+
+      </div>
+       
+      </div>
+     <div class="box5">
+      <div style="flex-basis: 45%;">
+         <img src="./prayagdham.JPG" style="height: 110px; width: 250px;">
+      </div>
+        <div style="background-color: white; flex-basis: 55%; padding-left: 7px;"><h3>Shri Anandpur Dham (M.P)</h3><p>Shree Anandpur Trust was established on 22nd April, 1954 AD, disciplined by the Trustee-Committee for the maintenance, security and growth of the movable and immovable property of the institution.</p>
+         <a href="https://www.shrianandpur.org/" class="read more">Read More</a>
+      </div>
+      </div>
+     <div class="box6">
+      <div style="flex-basis: 45%;">
+         <img src="./jvmhd914_pm-.webp" style="height: 160px; width: 250px;">
+      </div>
+        <div style="background-color: white; flex-basis: 55%; padding-left: 7px;"><h3>Narendra Modi Ji (Prime Minister Of India)</h3><p>Mr. Narendra Damodardas Modi is the present and 15th Indian prime minister.</p>
+         <a href="https://www.pmindia.gov.in/en/" class="read more">Read More</a>
+      </div>
+      </div>
+   </div>
+</body>
+</html>
